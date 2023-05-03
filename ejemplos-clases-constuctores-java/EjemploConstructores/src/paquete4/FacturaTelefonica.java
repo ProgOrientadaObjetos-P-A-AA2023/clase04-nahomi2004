@@ -12,7 +12,9 @@ public class FacturaTelefonica {
     private double valorMinuto;
     private double valorFactura;    
     
-    public FacturaTelefonica(String numTel, double mMes, double vMinuto){
+    // los parametros tiene nombre diferentes para no confundirnos y despues 
+    // relacionarlos
+    public FacturaTelefonica(String numTel, double mMes, double vMinuto){ 
         numeroTelefono = numTel;
         minutosMes = mMes;
         valorMinuto = vMinuto;
