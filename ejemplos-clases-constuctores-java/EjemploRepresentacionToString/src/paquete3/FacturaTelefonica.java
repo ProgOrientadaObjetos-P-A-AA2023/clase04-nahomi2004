@@ -64,7 +64,10 @@ public class FacturaTelefonica {
     
     @Override
     public String toString(){
-        String cadena = obtenerNumeroTelefono();
+        //String cadena = obtenerNumeroTelefono();
+        String cadena = numeroTelefono;
+        // Podemos llamar al atributo asi este en privado porque es la misma
+        // clase
         return cadena;
     }
     
